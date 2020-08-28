@@ -1,0 +1,16 @@
+PODS:
+  - ZHKWebSource (0.1.0)
+
+DEPENDENCIES:
+  - ZHKWebSource (from `../`)
+
+EXTERNAL SOURCES:
+  ZHKWebSource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHKWebSource: 42e9d0efe4b93a48ee8046667b07db3f3f8aa7c3
+
+PODFILE CHECKSUM: 95345e3a2d763b8acfca3a0cdb1e7da67ee1bae4
+
+COCOAPODS: 1.9.3
