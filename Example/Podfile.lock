@@ -1,16 +1,31 @@
 PODS:
-  - ZHKWebSource (0.1.0)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - ZHKWebSource (0.1.0):
+    - GCDWebServer (~> 3.5.4)
+    - YYCategories
 
 DEPENDENCIES:
   - ZHKWebSource (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+    - YYCategories
 
 EXTERNAL SOURCES:
   ZHKWebSource:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZHKWebSource: 42e9d0efe4b93a48ee8046667b07db3f3f8aa7c3
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  ZHKWebSource: 85cc6cd46808f4f07d6c4c120db1cc7adcfc4c81
 
-PODFILE CHECKSUM: 95345e3a2d763b8acfca3a0cdb1e7da67ee1bae4
+PODFILE CHECKSUM: 9c0b307e9acf6c759e6c4bc49215fc2023b03029
 
 COCOAPODS: 1.9.3
